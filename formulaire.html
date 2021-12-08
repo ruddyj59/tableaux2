@@ -1,0 +1,47 @@
+<html lang="en" dir="ltr"><head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+  <form class="" action="index2.html" method="post">
+    <fieldset>
+      <label for="prenom">prenon</label>
+      <input type="text" name="prenom" value="" pattern="[A-Za-z]+" placeholder="ruddy" id="prenom" required="">
+      <label for="nom">non famile</label>
+      <input type="text" name="nom" value="" placeholder="jaros" id="nom" required="">
+      <label for="email">mail</label>
+      <input type="email" name="mail" value="" placeholder="jarosr327@gmail.com" id="mail" required="">
+      <label for="age">age</label>
+      <input type="number" name="age" value="" min="18" max="100" id="age" required="">
+      <label for="sexe">Femme</label>
+      <input type="radio" name="sexe" value="femme" id="sexe" required="">
+      <label for="sexe">Homme</label>
+      <input type="radio" name="sexe" value="homme" id="sexe" required="">
+      <label for="pays">pays</label>
+      <select name="pays" size="1">
+        <option value="france">france</option>
+        <option value="belgique">belgique</option>
+        <option value="suisse">suisse</option>
+      </select>
+    </fieldset>
+    <fieldset>
+      <label for="competence">Compétences</label>
+        <label for="">informaticien</label>
+        <input type="checkbox" name="choix1" value="informaticien">
+        <label for="">saudeur</label>
+        <input type="checkbox" name="choix2" value="saudeur">
+        <label for="">preparateur</label>
+        <input type="checkbox" name="choix3" value="preparateur">
+        <label for="">technicien</label>
+        <input type="checkbox" name="choix4" value="technicien">
+        <label for="description">Description</label>
+        <textarea name="description" rows="8" cols="80"></textarea>
+    </fieldset>
+    <fieldset>
+      <label for="motdepasse">Mot de passe</label>
+      <input type="password" name="" value="" placeholder="mot de passe" minlength="8" id="motdepasse" required="">
+    </fieldset>
+    <input type="submit" value="Envoyer le formulaire">
+  </form>
+  </body>
+  </html>
